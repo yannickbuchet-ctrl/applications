@@ -1,12 +1,16 @@
 # Applications
 
-Logiciels gratuits pour Windows 10 et 11 (64 bits), en français. Chaque application est un seul fichier `.exe` :
-téléchargez-le et lancez-le, rien à installer.
+Logiciels gratuits pour Windows 10 et 11 (64 bits), en français. Chaque application existe en deux versions :
 
-| Application | Description | Téléchargement |
-|---|---|---|
-| **Calendrier Photo** | Calendrier personnalisé avec vos photos, exporté en PDF prêt à imprimer | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.0/Calendrier-Photo.exe) |
-| **PDF Toolkit 2** | Éditeur de PDF : texte, pages, formulaires, signatures, mots de passe, compression | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.0/PDF-Toolkit-2.exe) |
+- **Installateur** (recommandé) : installe l'application pour vous, sans droits d'administrateur, avec un raccourci
+  dans le menu Démarrer ; désinstallation par Paramètres → Applications. C'est la version la moins souvent bloquée
+  par les antivirus.
+- **Portable** : un seul fichier `.exe` à lancer directement, rien à installer.
+
+| Application | Description | Installateur | Portable |
+|---|---|---|---|
+| **Calendrier Photo** | Calendrier personnalisé avec vos photos, exporté en PDF prêt à imprimer | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.0/Calendrier-Photo-Installation-1.0.exe) | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.0/Calendrier-Photo.exe) |
+| **PDF Toolkit 2** | Éditeur de PDF : texte, pages, formulaires, signatures, mots de passe, compression | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.0/PDF-Toolkit-2-Installation-1.0.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.0/PDF-Toolkit-2.exe) |
 
 Toutes les versions sont sur la page [Releases](https://github.com/yannickbuchet-ctrl/applications/releases).
 
@@ -32,7 +36,9 @@ Créez un calendrier personnalisé avec vos photos, puis exportez-le en PDF prê
 
 Un éditeur de PDF simple et en français.
 
-- Modifier le texte, rechercher et remplacer.
+- Modifier le texte avec sa police d'origine ; si elle n'est pas installée, toutes les informations pour la
+  retrouver (nom exact, éditeur, licence) et la rechercher sur Internet.
+- Rechercher et remplacer, zoom à la Ctrl + molette.
 - Assembler plusieurs PDF, organiser, tourner et supprimer les pages.
 - Remplir les formulaires, insérer des images et des signatures.
 - Protéger par mot de passe (AES 256 bits) et compresser à l'enregistrement.
