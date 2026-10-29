@@ -9,8 +9,8 @@ Logiciels gratuits pour Windows 10 et 11 (64 bits), en français. Chaque applica
 
 | Application | Description | Installateur | Portable |
 |---|---|---|---|
-| **Calendrier Photo** | Calendrier personnalisé avec vos photos, exporté en PDF prêt à imprimer | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.0/Calendrier-Photo-Installation-1.0.exe) | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.0/Calendrier-Photo.exe) |
-| **PDF Toolkit 2** | Éditeur de PDF : texte, pages, formulaires, signatures, mots de passe, compression | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.0/PDF-Toolkit-2-Installation-1.0.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.0/PDF-Toolkit-2.exe) |
+| **Calendrier Photo** | Calendrier personnalisé avec vos photos, exporté en PDF prêt à imprimer | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo-Installation-1.2.exe) | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo.exe) |
+| **PDF Toolkit 2** | Éditeur de PDF : texte, pages, formulaires, signatures, mots de passe, compression | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.2/PDF-Toolkit-2-Installation-1.2.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.2/PDF-Toolkit-2.exe) |
 
 Toutes les versions sont sur la page [Releases](https://github.com/yannickbuchet-ctrl/applications/releases).
 
