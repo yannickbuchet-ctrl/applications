@@ -6,7 +6,7 @@ vos photos et vos documents ne sont jamais envoyés sur Internet.
 | Application | À quoi elle sert | Version | Installateur | Portable |
 |---|---|---|---|---|
 | **Calendrier Photo** | Créer un calendrier avec vos photos, prêt à imprimer | 1.2 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo-Installation-1.2.exe) | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo.exe) |
-| **PDF Toolkit 2** | Modifier, assembler, remplir, signer et protéger vos PDF | 1.2 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.2/PDF-Toolkit-2-Installation-1.2.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.2/PDF-Toolkit-2.exe) |
+| **PDF Toolkit 2** | Modifier, assembler, comparer, signer et protéger vos PDF ; photos d'identité | 1.3 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.3/PDF-Toolkit-2-Installation-1.3.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.3/PDF-Toolkit-2.exe) |
 
 Toutes les versions sont sur la page [Releases](https://github.com/yannickbuchet-ctrl/applications/releases).
 
@@ -54,20 +54,14 @@ Un éditeur de PDF simple et en français.
 - **Remplir les formulaires** (zones de texte, cases à cocher, listes de choix), **insérer une image ou une
   signature** scannée, dont le fond blanc devient transparent.
 - **Protéger par mot de passe** (chiffrement AES 256 bits) et **compresser** pour l'envoi par e-mail.
+- **Comparer deux PDF** (nouveau en 1.3) : les différences entre deux versions d'un document s'affichent côte à côte
+  ou superposées (ce qui a disparu en rouge, ce qui est nouveau en vert), avec la liste des différences et un rapport
+  PDF. Un réglage « Plan technique » compare finement les plans et les circuits imprimés, au centième de millimètre.
+- **Photos d'identité** (nouveau en 1.3) : à partir d'une photo, une planche aux formats officiels (France, Union
+  européenne, Royaume-Uni, États-Unis…), qui s'imprime à la taille exacte des photos.
 - **Annuler et rétablir** chaque opération, zoom à la Ctrl + molette, impression.
 
 ![PDF Toolkit 2 : recherche et remplacement dans un document](captures/pdf-toolkit-2.png)
-
-### En préparation
-
-Ces fonctions sont terminées mais **pas encore dans la version à télécharger** ; elles arriveront avec la prochaine
-version :
-
-- **Comparer deux PDF** : les différences entre deux versions d'un document s'affichent côte à côte ou superposées
-  (ce qui a disparu en rouge, ce qui est nouveau en vert), avec un rapport PDF. Un réglage « Plan technique »
-  compare finement les plans et les circuits imprimés.
-- **Photos d'identité** : à partir d'une photo, une planche aux formats officiels (France, Union européenne,
-  Royaume-Uni, États-Unis…), qui s'imprime à la taille exacte des photos.
 
 PDF Toolkit 2 est un logiciel libre sous licence GNU AGPL v3 : son code source est disponible sur
 [github.com/yannickbuchet-ctrl/pdf-toolkit-2](https://github.com/yannickbuchet-ctrl/pdf-toolkit-2).
