@@ -1,34 +1,44 @@
 # Applications
 
-Logiciels gratuits pour Windows 10 et 11 (64 bits), en français. Chaque application existe en deux versions :
+Logiciels gratuits pour Windows 10 et 11 (64 bits), en français. Ils fonctionnent entièrement sur votre ordinateur :
+vos photos et vos documents ne sont jamais envoyés sur Internet.
 
-- **Installateur** (recommandé) : installe l'application pour vous, sans droits d'administrateur, avec un raccourci
-  dans le menu Démarrer ; désinstallation par Paramètres → Applications. C'est la version la moins souvent bloquée
-  par les antivirus.
-- **Portable** : un seul fichier `.exe` à lancer directement, rien à installer.
-
-| Application | Description | Installateur | Portable |
-|---|---|---|---|
-| **Calendrier Photo** | Calendrier personnalisé avec vos photos, exporté en PDF prêt à imprimer | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo-Installation-1.2.exe) | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo.exe) |
-| **PDF Toolkit 2** | Éditeur de PDF : texte, pages, formulaires, signatures, mots de passe, compression | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.2/PDF-Toolkit-2-Installation-1.2.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.2/PDF-Toolkit-2.exe) |
+| Application | À quoi elle sert | Version | Installateur | Portable |
+|---|---|---|---|---|
+| **Calendrier Photo** | Créer un calendrier avec vos photos, prêt à imprimer | 1.2 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo-Installation-1.2.exe) | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo.exe) |
+| **PDF Toolkit 2** | Modifier, assembler, remplir, signer et protéger vos PDF | 1.2 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.2/PDF-Toolkit-2-Installation-1.2.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.2/PDF-Toolkit-2.exe) |
 
 Toutes les versions sont sur la page [Releases](https://github.com/yannickbuchet-ctrl/applications/releases).
 
+## Quelle version choisir ?
+
+- **Installateur** (recommandé) : il installe l'application pour vous, sans droits d'administrateur, avec un
+  raccourci dans le menu Démarrer. Pour la retirer : Paramètres → Applications. C'est la version la moins souvent
+  bloquée par les antivirus.
+- **Portable** : un seul fichier `.exe` à lancer directement, sans rien installer. Pratique sur une clé USB.
+
 ## Au premier lancement
 
-- Windows peut afficher « Windows a protégé votre ordinateur », car les exécutables ne sont pas signés
-  numériquement : cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
+- Windows peut afficher « Windows a protégé votre ordinateur », car les fichiers ne sont pas signés numériquement :
+  cliquez sur **Informations complémentaires**, puis sur **Exécuter quand même**.
 - Si votre antivirus bloque le fichier (fausse alerte), autorisez-le ou ajoutez-le à ses exclusions.
 
 ## Calendrier Photo
 
 Créez un calendrier personnalisé avec vos photos, puis exportez-le en PDF prêt à imprimer.
 
-- Couverture et 12 mois, au format A4 ou A3, en portrait ou en paysage.
-- Une à quatre photos par mois, remplissage automatique par date de prise de vue, recadrage de chaque photo.
-- Jours fériés et vacances scolaires françaises (zones A, B et C), numéros de semaine.
-- Anniversaires et événements, avec import et export de la liste au format CSV.
-- Export PDF en 300 dpi et impression.
+- **Couverture et 12 mois**, au format A4 ou A3, en portrait ou en paysage.
+- **Une à quatre photos par page** : une photo, deux côte à côte, une grande et deux petites, ou une mosaïque.
+- **Remplissage automatique** : sélectionnez toutes vos photos d'un coup ; elles sont rangées mois par mois selon
+  leur date de prise de vue, chacune dans un cadre adapté (portrait ou paysage).
+- **Recadrage** de chaque photo (zoom et position), ou photo entière.
+- **Jours fériés** et **vacances scolaires** françaises (zones A, B et C), numéros de semaine, week-ends en couleur,
+  choix de la police et des couleurs.
+- **Anniversaires et événements**, avec l'âge pour les anniversaires. La liste s'enregistre dans un fichier ouvrable
+  avec Excel, pour la reprendre d'une année sur l'autre.
+- **Vue d'ensemble** des 13 pages, annuler et rétablir, **sauvegarde automatique** et récupération après une
+  fermeture imprévue. Un avertissement s'affiche si une photo est déjà utilisée dans le calendrier.
+- **Export PDF** en haute définition (300 dpi) et **impression**.
 
 ![Calendrier Photo : réglages, photos des mois et aperçu de la page](captures/calendrier-photo.png)
 
@@ -36,14 +46,28 @@ Créez un calendrier personnalisé avec vos photos, puis exportez-le en PDF prê
 
 Un éditeur de PDF simple et en français.
 
-- Modifier le texte avec sa police d'origine ; si elle n'est pas installée, toutes les informations pour la
-  retrouver (nom exact, éditeur, licence) et la rechercher sur Internet.
-- Rechercher et remplacer, zoom à la Ctrl + molette.
-- Assembler plusieurs PDF, organiser, tourner et supprimer les pages.
-- Remplir les formulaires, insérer des images et des signatures.
-- Protéger par mot de passe (AES 256 bits) et compresser à l'enregistrement.
+- **Modifier le texte** d'un PDF directement sur la page, en gardant sa police d'origine quand c'est possible. Si la
+  police n'est pas installée sur l'ordinateur, l'application donne tout ce qu'il faut pour la retrouver (nom exact,
+  éditeur, licence) et la rechercher sur Internet.
+- **Rechercher et remplacer** un mot dans tout le document.
+- **Assembler** plusieurs PDF en un seul ; **organiser** les pages : les déplacer, les faire pivoter, les supprimer.
+- **Remplir les formulaires** (zones de texte, cases à cocher, listes de choix), **insérer une image ou une
+  signature** scannée, dont le fond blanc devient transparent.
+- **Protéger par mot de passe** (chiffrement AES 256 bits) et **compresser** pour l'envoi par e-mail.
+- **Annuler et rétablir** chaque opération, zoom à la Ctrl + molette, impression.
 
 ![PDF Toolkit 2 : recherche et remplacement dans un document](captures/pdf-toolkit-2.png)
+
+### En préparation
+
+Ces fonctions sont terminées mais **pas encore dans la version à télécharger** ; elles arriveront avec la prochaine
+version :
+
+- **Comparer deux PDF** : les différences entre deux versions d'un document s'affichent côte à côte ou superposées
+  (ce qui a disparu en rouge, ce qui est nouveau en vert), avec un rapport PDF. Un réglage « Plan technique »
+  compare finement les plans et les circuits imprimés.
+- **Photos d'identité** : à partir d'une photo, une planche aux formats officiels (France, Union européenne,
+  Royaume-Uni, États-Unis…), qui s'imprime à la taille exacte des photos.
 
 PDF Toolkit 2 est un logiciel libre sous licence GNU AGPL v3 : son code source est disponible sur
 [github.com/yannickbuchet-ctrl/pdf-toolkit-2](https://github.com/yannickbuchet-ctrl/pdf-toolkit-2).
