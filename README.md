@@ -10,6 +10,9 @@ vos photos et vos documents ne sont jamais envoyés sur Internet.
 
 Toutes les versions sont sur la page [Releases](https://github.com/yannickbuchet-ctrl/applications/releases).
 
+**Sans rien installer : [PDF Toolkit Web](https://yannickbuchet-ctrl.github.io/pdf-toolkit-web/)**, la version de
+PDF Toolkit qui fonctionne dans le navigateur, sur ordinateur, tablette ou téléphone (voir plus bas).
+
 ## Quelle version choisir ?
 
 - **Installateur** (recommandé) : il installe l'application pour vous, sans droits d'administrateur, avec un
@@ -65,6 +68,23 @@ Un éditeur de PDF simple et en français.
 
 PDF Toolkit 2 est un logiciel libre sous licence GNU AGPL v3 : son code source est disponible sur
 [github.com/yannickbuchet-ctrl/pdf-toolkit-2](https://github.com/yannickbuchet-ctrl/pdf-toolkit-2).
+
+### PDF Toolkit Web : sans rien installer
+
+**Ouvrir : <https://yannickbuchet-ctrl.github.io/pdf-toolkit-web/>**
+
+La même boîte à outils PDF, dans le navigateur (Chrome, Edge, Firefox, Safari), sur ordinateur, tablette ou
+téléphone : modifier le texte, annoter, signer, remplir, organiser, fusionner, comparer, protéger, compresser, photos
+d'identité.
+
+- **Rien n'est envoyé sur Internet** : le site s'exécute entièrement dans votre navigateur, vos PDF restent sur votre
+  appareil. Il fonctionne aussi hors ligne une fois ouvert.
+- **Aucun programme à installer** : pratique sur un ordinateur qui n'autorise pas l'installation de logiciels.
+- **L'installer comme une application** (facultatif) : avec Chrome ou Edge, cliquez sur l'icône « Installer » à
+  droite de la barre d'adresse. PDF Toolkit apparaît alors dans le menu Démarrer et dans « Ouvrir avec » pour les PDF.
+
+Code source : [github.com/yannickbuchet-ctrl/pdf-toolkit-web](https://github.com/yannickbuchet-ctrl/pdf-toolkit-web)
+(licence GNU AGPL v3).
 
 ## Crédits
 
