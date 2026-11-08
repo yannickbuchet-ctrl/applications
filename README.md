@@ -6,7 +6,7 @@ vos photos et vos documents ne sont jamais envoyés sur Internet.
 | Application | À quoi elle sert | Version | Installateur | Portable |
 |---|---|---|---|---|
 | **Calendrier Photo** | Créer un calendrier avec vos photos, prêt à imprimer | 1.2 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo-Installation-1.2.exe) | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo.exe) |
-| **PDF Toolkit 2** | Modifier, assembler, comparer, signer et protéger vos PDF ; lire le texte des scans ; photos d'identité | 1.4 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.4/PDF-Toolkit-2-Installation-1.4.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.4/PDF-Toolkit-2.exe) |
+| **PDF Toolkit 2** | Modifier, assembler, comparer, signer et protéger vos PDF ; lire le texte des scans ; photos d'identité | 1.5 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.5/PDF-Toolkit-2-Installation-1.5.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.5/PDF-Toolkit-2.exe) |
 
 Toutes les versions sont sur la page [Releases](https://github.com/yannickbuchet-ctrl/applications/releases).
 
@@ -75,6 +75,7 @@ Un éditeur de PDF simple et en français.
 - **Protéger par mot de passe** (chiffrement AES 256 bits) et **compresser** pour l'envoi par e-mail.
 - **Lire le texte des documents scannés** (reconnaissance de texte, OCR, nouveau en 1.4) : un PDF scanné devient
   cherchable, et son texte se sélectionne et se copie, sans changer d'aspect. Français et anglais, sans connexion.
+  Le texte reconnu s'affiche ensuite dans une fenêtre où chercher un mot (nouveau en 1.5).
 - **Photos d'iPhone** (HEIC) et WebP acceptées pour les images, signatures et photos d'identité (nouveau en 1.4).
 - **Comparer deux PDF** : les différences entre deux versions d'un document s'affichent côte à côte
   ou superposées (ce qui a disparu en rouge, ce qui est nouveau en vert), avec la liste des différences et un rapport
