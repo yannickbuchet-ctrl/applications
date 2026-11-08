@@ -11,8 +11,9 @@ vos photos et vos documents ne sont jamais envoyés sur Internet.
 Toutes les versions sont sur la page [Releases](https://github.com/yannickbuchet-ctrl/applications/releases).
 
 **Sans rien installer**, dans le navigateur, sur ordinateur, tablette ou téléphone (voir plus bas) :
-[Calendrier Photo Web](https://yannickbuchet-ctrl.github.io/calendrier-photo-web/) et
-[PDF Toolkit Web](https://yannickbuchet-ctrl.github.io/pdf-toolkit-web/).
+[Calendrier Photo Web](https://yannickbuchet-ctrl.github.io/calendrier-photo-web/),
+[PDF Toolkit Web](https://yannickbuchet-ctrl.github.io/pdf-toolkit-web/) et
+[Typon](https://yannickbuchet-ctrl.github.io/typon/), pour les fichiers de fabrication de circuits imprimés.
 
 ## Quelle version choisir ?
 
@@ -105,6 +106,26 @@ texte des scans (OCR), photos d'identité. Les photos d'iPhone (HEIC) sont accep
 
 Code source : [github.com/yannickbuchet-ctrl/pdf-toolkit-web](https://github.com/yannickbuchet-ctrl/pdf-toolkit-web)
 (licence GNU AGPL v3).
+
+## Typon : fichiers de circuits imprimés
+
+**Ouvrir : <https://yannickbuchet-ctrl.github.io/typon/>**
+
+Pour les concepteurs électroniques : une visionneuse et un comparateur de fichiers de fabrication, dans le navigateur.
+
+- **Lit** les Gerber (RS-274X, X2, X3), les perçages Excellon et XNC, les fichiers de job et l'**ODB++**, en fichiers
+  séparés, en archive ZIP ou TGZ, ou en dossier.
+- **Affiche** chaque couche (dessus, dessous, couleurs, opacité), et donne au clic l'ouverture, le net, le composant et
+  la broche d'un élément ; mesure les distances.
+- **Met en forme l'ODB++** : couches, composants, nomenclature, nets et perçages en tableaux.
+- **Compare deux versions**, même dans des formats différents : superposition (ce qui a disparu en rouge, ce qui est
+  apparu en vert), côte à côte ou en alternance, zones de différence listées, composants ajoutés ou retirés, rapport
+  PDF.
+- **Rien n'est envoyé** : tout est calculé dans le navigateur, et le site fonctionne hors ligne.
+
+![Typon : comparaison de deux révisions d'une carte](captures/typon.png)
+
+Code source : [github.com/yannickbuchet-ctrl/typon](https://github.com/yannickbuchet-ctrl/typon) (licence MIT).
 
 ## Crédits
 
