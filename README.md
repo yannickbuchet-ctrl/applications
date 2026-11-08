@@ -6,12 +6,13 @@ vos photos et vos documents ne sont jamais envoyés sur Internet.
 | Application | À quoi elle sert | Version | Installateur | Portable |
 |---|---|---|---|---|
 | **Calendrier Photo** | Créer un calendrier avec vos photos, prêt à imprimer | 1.2 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo-Installation-1.2.exe) | [Calendrier Photo.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/calendrier-photo-v1.2/Calendrier-Photo.exe) |
-| **PDF Toolkit 2** | Modifier, assembler, comparer, signer et protéger vos PDF ; photos d'identité | 1.3 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.3/PDF-Toolkit-2-Installation-1.3.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.3/PDF-Toolkit-2.exe) |
+| **PDF Toolkit 2** | Modifier, assembler, comparer, signer et protéger vos PDF ; lire le texte des scans ; photos d'identité | 1.4 | [Installer](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.4/PDF-Toolkit-2-Installation-1.4.exe) | [PDF Toolkit 2.exe](https://github.com/yannickbuchet-ctrl/applications/releases/download/pdf-toolkit-2-v1.4/PDF-Toolkit-2.exe) |
 
 Toutes les versions sont sur la page [Releases](https://github.com/yannickbuchet-ctrl/applications/releases).
 
-**Sans rien installer : [PDF Toolkit Web](https://yannickbuchet-ctrl.github.io/pdf-toolkit-web/)**, la version de
-PDF Toolkit qui fonctionne dans le navigateur, sur ordinateur, tablette ou téléphone (voir plus bas).
+**Sans rien installer**, dans le navigateur, sur ordinateur, tablette ou téléphone (voir plus bas) :
+[Calendrier Photo Web](https://yannickbuchet-ctrl.github.io/calendrier-photo-web/) et
+[PDF Toolkit Web](https://yannickbuchet-ctrl.github.io/pdf-toolkit-web/).
 
 ## Quelle version choisir ?
 
@@ -45,6 +46,21 @@ Créez un calendrier personnalisé avec vos photos, puis exportez-le en PDF prê
 
 ![Calendrier Photo : réglages, photos des mois et aperçu de la page](captures/calendrier-photo.png)
 
+### Calendrier Photo Web : sans rien installer
+
+**Ouvrir : <https://yannickbuchet-ctrl.github.io/calendrier-photo-web/>**
+
+Le même calendrier, dans le navigateur, sur ordinateur, tablette ou téléphone : mêmes pages, même remplissage
+automatique, mêmes fichiers d'anniversaires que la version Windows.
+
+- **Vos photos ne sont jamais envoyées** : elles sont mises en page et le PDF est créé dans votre navigateur. Le
+  calendrier en cours est gardé sur votre appareil, et le site fonctionne hors ligne une fois ouvert.
+- **Le fichier de projet emporte ses photos** : un calendrier enregistré se rouvre sur n'importe quel appareil.
+- Pour essayer sans vos photos : « Essayer avec les photos modèles ».
+
+Code source : [github.com/yannickbuchet-ctrl/calendrier-photo-web](https://github.com/yannickbuchet-ctrl/calendrier-photo-web)
+(licence MIT).
+
 ## PDF Toolkit 2
 
 Un éditeur de PDF simple et en français.
@@ -57,10 +73,13 @@ Un éditeur de PDF simple et en français.
 - **Remplir les formulaires** (zones de texte, cases à cocher, listes de choix), **insérer une image ou une
   signature** scannée, dont le fond blanc devient transparent.
 - **Protéger par mot de passe** (chiffrement AES 256 bits) et **compresser** pour l'envoi par e-mail.
-- **Comparer deux PDF** (nouveau en 1.3) : les différences entre deux versions d'un document s'affichent côte à côte
+- **Lire le texte des documents scannés** (reconnaissance de texte, OCR, nouveau en 1.4) : un PDF scanné devient
+  cherchable, et son texte se sélectionne et se copie, sans changer d'aspect. Français et anglais, sans connexion.
+- **Photos d'iPhone** (HEIC) et WebP acceptées pour les images, signatures et photos d'identité (nouveau en 1.4).
+- **Comparer deux PDF** : les différences entre deux versions d'un document s'affichent côte à côte
   ou superposées (ce qui a disparu en rouge, ce qui est nouveau en vert), avec la liste des différences et un rapport
   PDF. Un réglage « Plan technique » compare finement les plans et les circuits imprimés, au centième de millimètre.
-- **Photos d'identité** (nouveau en 1.3) : à partir d'une photo, une planche aux formats officiels (France, Union
+- **Photos d'identité** : à partir d'une photo, une planche aux formats officiels (France, Union
   européenne, Royaume-Uni, États-Unis…), qui s'imprime à la taille exacte des photos.
 - **Annuler et rétablir** chaque opération, zoom à la Ctrl + molette, impression.
 
@@ -74,8 +93,8 @@ PDF Toolkit 2 est un logiciel libre sous licence GNU AGPL v3 : son code source e
 **Ouvrir : <https://yannickbuchet-ctrl.github.io/pdf-toolkit-web/>**
 
 La même boîte à outils PDF, dans le navigateur (Chrome, Edge, Firefox, Safari), sur ordinateur, tablette ou
-téléphone : modifier le texte, annoter, signer, remplir, organiser, fusionner, comparer, protéger, compresser, photos
-d'identité.
+téléphone : modifier le texte, annoter, signer, remplir, organiser, fusionner, comparer, protéger, compresser, lire le
+texte des scans (OCR), photos d'identité. Les photos d'iPhone (HEIC) sont acceptées.
 
 - **Rien n'est envoyé sur Internet** : le site s'exécute entièrement dans votre navigateur, vos PDF restent sur votre
   appareil. Il fonctionne aussi hors ligne une fois ouvert.
