@@ -113,14 +113,18 @@ Code source : [github.com/yannickbuchet-ctrl/pdf-toolkit-web](https://github.com
 
 Pour les concepteurs électroniques : une visionneuse et un comparateur de fichiers de fabrication, dans le navigateur.
 
-- **Lit** les Gerber (RS-274X, X2, X3), les perçages Excellon et XNC, les fichiers de job et l'**ODB++**, en fichiers
-  séparés, en archive ZIP ou TGZ, ou en dossier.
+- **Lit** les Gerber (RS-274D, RS-274X, X2, X3), les perçages Excellon et XNC, les fichiers de job, l'**ODB++** et
+  l'**IPC-2581**, en fichiers séparés, en archive ZIP ou TGZ, ou en dossier.
 - **Affiche** chaque couche (dessus, dessous, couleurs, opacité), et donne au clic l'ouverture, le net, le composant et
   la broche d'un élément ; mesure les distances.
-- **Met en forme l'ODB++** : couches, composants, nomenclature, nets et perçages en tableaux.
+- **Met en forme l'ODB++ et l'IPC-2581** : couches, composants, nomenclature, nets et perçages en tableaux,
+  exportables en CSV pour Excel.
+- **Montre la carte en 3D** : plaque découpée à son épaisseur, cuivre, vernis, sérigraphie, trous et boîtiers des
+  composants.
 - **Compare deux versions**, même dans des formats différents : superposition (ce qui a disparu en rouge, ce qui est
   apparu en vert), côte à côte ou en alternance, zones de différence listées, composants ajoutés ou retirés, rapport
   PDF.
+- **En français ou en anglais**, au choix.
 - **Rien n'est envoyé** : tout est calculé dans le navigateur, et le site fonctionne hors ligne.
 
 ![Typon : comparaison de deux révisions d'une carte](captures/typon.png)
