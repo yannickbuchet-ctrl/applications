@@ -61,9 +61,15 @@ Pour les concepteurs électroniques : une visionneuse, un comparateur et un vér
 - **Met la carte en panneau** (rainures en V ou languettes perforées, bords, mires) et l'exporte en Gerber.
 - **Produit une fiche PDF** de description de la carte : vues 2D et 3D, caractéristiques, empilage, perçages,
   composants, nomenclature.
-- **En français ou en anglais**, au choix. Une carte d'exemple, avec quelques défauts cachés, permet de tout essayer.
+- **En français ou en anglais**, au choix.
 
-![Typon : carte d'exemple en 3D](captures/typon.png)
+**Pour essayer sans vos fichiers**, l'accueil propose une carte d'exemple : un nœud capteur IoT à 4 couches
+(60 × 38 mm, 47 composants : microcontrôleur, USB-C, chargeur de batterie, capteur), en Gerber et en ODB++, avec une
+révision B pour la comparaison. Six défauts de fabrication y sont cachés : le bouton **DFM** les retrouve.
+
+![Typon : la carte d'exemple en 3D, avec ses composants](captures/typon-3d.png)
+
+![Typon : vérification DFM de la carte d'exemple, défauts marqués sur la carte](captures/typon-dfm.png)
 
 Code source : [github.com/yannickbuchet-ctrl/typon](https://github.com/yannickbuchet-ctrl/typon) (licence MIT).
 
