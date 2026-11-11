@@ -121,6 +121,12 @@ Pour les concepteurs électroniques : une visionneuse et un comparateur de fichi
   exportables en CSV pour Excel.
 - **Montre la carte en 3D** : plaque découpée à son épaisseur, cuivre, vernis, sérigraphie, trous et boîtiers des
   composants.
+- **Vérifie la fabricabilité (DFM)** : largeur des pistes, isolements, courts-circuits, anneaux, perçages, cuivre au
+  bord, vernis et sérigraphie, avec des profils de fabricants (JLCPCB, PCBWay, Eurocircuits…) et un rapport PDF.
+- **Surligne un net** et mesure la longueur de ses pistes.
+- **Met la carte en panneau** (rainures en V ou languettes perforées, bords, mires) et l'exporte en Gerber.
+- **Produit une fiche PDF** de description de la carte : vues 2D et 3D, caractéristiques, empilage, perçages,
+  composants, nomenclature.
 - **Compare deux versions**, même dans des formats différents : superposition (ce qui a disparu en rouge, ce qui est
   apparu en vert), côte à côte ou en alternance, zones de différence listées, composants ajoutés ou retirés, rapport
   PDF.
